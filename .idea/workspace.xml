@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d39e9fd3-203b-4bfe-874b-495c15511ed2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prototype/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prototype/Brand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prototype/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prototype/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prototype/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/prototype/CarTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CarTest">
+  <component name="RunManager" selected="JUnit.CarTest.testClone">
     <configuration name="CarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LP5-prototype" />
       <extension name="coverage">
@@ -79,8 +76,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CarTest" />
         <item itemvalue="JUnit.CarTest.testClone" />
+        <item itemvalue="JUnit.CarTest" />
       </list>
     </recent_temporary>
   </component>
