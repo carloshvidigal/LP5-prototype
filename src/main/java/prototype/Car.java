@@ -55,11 +55,11 @@ public class Car implements Cloneable {
 
     @Override
     public String toString() {
-        return "Carro{" +
-                "marca:" + brand +
-                ", nome:" + name +
-                ", ano de fabricação:'" + manufactureYear +
-                ", cor:" + color  +
+        return "Carro {" +
+                "Marca: " + brand +
+                ", Nome: " + name +
+                ", Ano de Fabricação: " + manufactureYear +
+                ", Cor: " + color  +
                 "}";
     }
 }

@@ -1,14 +1,23 @@
 package prototype;
 
 public class Brand implements Cloneable{
-
+    private String name;
     private String country;
     private String city;
 
-    public Brand(String country, String city){
+    public Brand(String name, String country, String city){
         super();
+        this.name = name;
         this.country = country;
         this.city = city;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getCountry() {
@@ -34,9 +43,10 @@ public class Brand implements Cloneable{
 
     @Override
     public String toString() {
-        return "Marca(" +
-                "País:" + country +
-                ", cidade:" + city +
-                '}';
+        return "(" +
+                "Nome: " + name +
+                ", País: " + country +
+                ", Cidade: " + city +
+                ')';
     }
 }
